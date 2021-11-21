@@ -1,6 +1,6 @@
 # url-shortner-service
 
-Endpoints added
+**Endpoints added**
 
 1.Health endpoint - to check if server is running or not
 http://localhost:8080/health
