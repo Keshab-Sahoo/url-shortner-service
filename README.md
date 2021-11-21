@@ -7,6 +7,7 @@ http://localhost:8080/health
 HTTP method: GET
 
 2.URL shortner endpoint - returns a short URL
+
 http://localhost:8080/short-url?longURL=http://google.com/1346461234567890123456789/get/who_is_who
 HTTP Method: GET
 Sample JSON Response:
