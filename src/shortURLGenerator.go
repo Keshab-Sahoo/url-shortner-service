@@ -11,7 +11,7 @@ type Result struct {
 
 func GenerateShortURL() string {
 	var letterRunes = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789%$#@!*^+")
-	b := make([]rune, 12)
+	b := make([]rune, 8)
 	for i := range b {
 		b[i] = letterRunes[rand.Intn(len(letterRunes))]
 	}
