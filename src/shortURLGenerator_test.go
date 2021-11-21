@@ -1,10 +1,13 @@
 package src
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestGenerateShortURL(t *testing.T) {
 	url := GenerateShortURL()
-	if url == nil {
+	var length = len([]rune(url))
+	if length != 8 {
 		t.Errorf("URL Got Nil But expected Non Nil")
 	}
 }
